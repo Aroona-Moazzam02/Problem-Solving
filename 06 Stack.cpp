@@ -19,7 +19,7 @@ class bscs{
 			int val = arr[top];
 			arr[top] = NULL;						
 			cout<<"Value "<<val<<" is Pop"<<endl;
-			//top--;
+			top--;
 			
 			cout<<"Deleted valuie is present or Not: "<<arr[2]<<endl;
 		}
@@ -43,9 +43,9 @@ int main() {
 	a.push(15);
 	a.print();	
 	a.pop();	
-	//a.print();
 	
-	/*
+	
+	
 	a.push(10);
 	a.push(30);
 	a.push(21);
@@ -57,7 +57,7 @@ int main() {
 	a.push(40);
 	a.push(32);
 	a.print();
-	*/
+	
 	
 	return 0;
 }
